@@ -1,3 +1,79 @@
+<!DOCTYPE html>
 <header>
+<head>
     <title>Google</title>
+</head>
+<style>
+  main {
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      position:relative;
+      padding-top:220px;
+  }
+
+  #search {
+    padding:10px;
+    margin:10px;
+    margin-bottom:20px;
+    height:10px;
+    width:500px;
+    border-radius:15px;
+  }
+
+  nav {
+position:fixed;
+right:10px;
+top:5px;    
+align-self: stretch;
+align-items:center;
+justify-content: space-around;
+flex-flow: row wrap;
+flex-basis:50px;
+font-size:15px;
+  }
+
+  #Gmail {
+    flex:30%;
+  }
+  
+button {
+  width:150px;
+  height:25px;
+  font-size:10px;
+  align-items: center;
+  font-weight:500;
+  background-color: gainsboro;
+  border-radius:5px;
+}
+
+</style>
+
+
 </header>
+
+
+<main>
+<body>
+
+  <nav>
+    <id="Gmail">Gmail</id>
+    <id="Images">Images</id>
+    <!--  -->
+    <id="Sign In">Sign In</id>
+  </nav>
+
+
+<img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+
+<input id="search" type="text" placeholder="" autofocus/>
+
+<div class="buttons">
+<button >Google Search</button>
+<button>I'm feeling lucky</button>
+</div>
+
+
+</body>
+</main>
