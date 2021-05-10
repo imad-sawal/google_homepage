@@ -23,9 +23,9 @@
   }
 
   nav {
-position:fixed;
+position:absolute;
 right:10px;
-top:5px;    
+top:15px;    
 align-self: stretch;
 align-items:center;
 justify-content: space-around;
@@ -39,13 +39,23 @@ font-size:15px;
   }
   
 button {
-  width:150px;
+  width:200px;
   height:25px;
-  font-size:10px;
-  align-items: center;
+  font-size:15px;
+  align-items: stretch;
   font-weight:500;
-  background-color: gainsboro;
+  background-color: whitesmoke;
   border-radius:5px;
+}
+
+#sign-in {
+  background-color:blue;
+  padding:10px;
+  padding-right:20px;
+  padding-left:20px;
+  color:white;
+  margin:15px;
+  border-radius: 5px;
 }
 
 </style>
@@ -61,7 +71,7 @@ button {
     <a href="#" id="Gmail">Gmail</a>
     <a href="#" id="Images">Images</a>
     <!--  -->
-    <a href="#" id="Sign In">Sign In</a>
+    <a href="#" id="sign-in">Sign In</a>
   </nav>
 
 
@@ -71,7 +81,7 @@ button {
 
 <div class="buttons">
 <button >Google Search</button>
-<button>I'm feeling lucky</button>
+<button>I'm Feeling Lucky</button>
 </div>
 
 
